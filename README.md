@@ -5,6 +5,9 @@
 
 Cinny is a matrix client focusing primarily on simple, elegant and secure interface. The desktop app is made with Tauri.
 
+#### FORK SPECIFICS:
+This fork was specifically made to tackle issues running the appimage on Ubuntu 18.04, which doesn't use newer gcc libraries. The only change this has is that it changes the builder from ubuntu-latest to ubuntu-18.04 until Github stops supporting it (by that time I hope I'll be able to upgrade too...) 
+
 ## Download
 
 Installers for macOS, Windows and Linux can be downloaded from [Github releases](https://github.com/cinnyapp/cinny-desktop/releases). Releases are signed with a [Ed25519](https://ed25519.cr.yp.to/) public-key.
